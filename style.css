@@ -16,8 +16,8 @@
     width: 500px;
     height: 150px;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #box3 p{
@@ -66,4 +66,105 @@
     background-color: orange;
     width: 100px;
     height: 50px;
+}
+
+#bodypart{
+    display: flex;
+    background-color: yellow;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#bdpart1{
+    background-color: violet;
+    /* width: 800px; */
+    height: 330px;
+    margin-left: 10px;
+}
+
+#bdpart2{
+    background-color: green;
+    /* width: 800px; */
+    height: 300px;
+}
+
+#bdpt1{
+    background-color: red;
+    width: 600px;
+    height: 300px;
+}
+#bdpt2{
+    background-color: khaki;
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+#bdpt1, #bdpt2 {
+    /* background-color: red; */
+    /* width: 600px; */
+     /* Adjust this value as needed */
+    height: 150px;
+    display: block;
+}
+
+#bdpart1, #bdpart2 {
+    flex: 1; /* This will make each box take up an equal amount of space */
+}
+
+#new1, #new2, #new3{
+    display: block;
+    width: 200px;
+    height: 98px;
+    background-color: wheat;
+    margin-left: 50px;
+}
+
+#para1, #para2, #para3{
+    display: block;
+}
+
+#bdpart2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#last{
+    margin-left: 50px;
+    margin-right: 50px;
+    display:flex;
+    flex-direction: row;
+}
+#last1, #last2, #last3, #last4{
+    flex: 1;
+    /* width: 100px;
+    height: 100px;
+    background-color: blue; */
+}
+
+#last1{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+
+#last2{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-color: blanchedalmond;
+}
+
+#last3{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-color: blue;
+}
+
+#last4{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-color: black;
 }
