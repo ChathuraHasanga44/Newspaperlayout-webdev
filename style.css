@@ -1,0 +1,69 @@
+#box1{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
+
+#box2{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    
+}
+
+#box3{
+    /* background-color: pink; */
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#box3 p{
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+#box{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#box1, #box2, #box3 {
+    flex: 1; /* This will make each box take up an equal amount of space */
+}
+
+#boxnew{
+    background-color: yellow;
+    /* width: 100%; */
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+#boxnew1{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+}
+
+#boxnew2{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+}
+
+#boxnew3{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+}
+
+#boxnew4{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+}
